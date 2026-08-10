@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Point Pleasant Beach DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Point Pleasant Beach Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2044,
+  "height": 2985,
+  "nodata": -999999,
+  "minMeters": -1.038,
+  "maxMeters": 13.925,
+  "meanMeters": 1.99,
+  "stdDevMeters": 1.7,
+  "minFeet": -3.4055118110100002,
+  "maxFeet": 45.685695537875006,
+  "webMercatorBounds": [
+    -8244249.008029,
+    4876918.138996,
+    -8241133.952029,
+    4881467.278996
+  ],
+  "leafletBounds": [
+    [
+      40.0754981,
+      -74.0593489
+    ],
+    [
+      40.1067516,
+      -74.0313755
+    ]
+  ],
+  "files": {
+    "demCog": "point_pleasant_beach_dem_5ft_cog.tif",
+    "hillshadeCog": "point_pleasant_beach_hillshade_cog.tif",
+    "hillshadePng": "point_pleasant_beach_hillshade.png",
+    "boundaryGeojson": "point_pleasant_beach_boundary.geojson"
+  }
+}
